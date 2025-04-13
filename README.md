@@ -14,6 +14,22 @@ docker ps
 
 - Copy the id or first column's value to get the id of your running redis-stack image
 
+- run the following command to run this image
+
+```
+ docker exec -it <copied_id> bash
+```
+
+```
+Example: docker exec -it 2438bc8cba30 bash
+```
+
+- now run this to connect with terminal of redis-stack's docker
+
+```
+redis-cli
+```
+
 # 1.2 Setup Project with cloning this repository
 
 - open your visual studio code from your cloned repo directory from your local machine
